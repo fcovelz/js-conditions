@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Condiciones</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Desafio Javascript: Condiciones</h1>
+    </header>
+    <section class="parte1">
+        <h2>Parte 1</h2>
+        <img src="img/popcatclose.jpg" alt="popcatclose" onclick="popcat()" id="popcat">
+    </section>
+
+    <section class="parte2">
+        <h2>Parte 2</h2>
+        <p>¡Puedes llevar hasta 10 stickers en total!</p>
+        <div class="contenedor1">
+            <div class="sticker s1">
+                <img src="img/sticker1.png" alt="sticker1">
+                <input type= "number" id="stick1">
+            </div>
+            <div class="sticker s2">
+                <img src="img/sticker2.png" alt="sticker2">
+                <input type= "number" id="stick2">
+            </div>
+            <div class="sticker s3">
+                <img src="img/sticker3.png" alt="sticker3">
+                <input type= "number" id="stick3">
+            </div>
+        </div>
+        
+        <p id="cant">Llevas 0 stickers</p>
+        <button onclick="verificar()">Verificar</button>
+    </section>
+
+    <section class="parte3">
+        <h2>Parte 3</h2>
+        <p>Ingresar el Password</p>
+        <div class="contendor 2">
+            <select name="" id="sele1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="" id="sele2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="" id="sele3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <button id="ingreso" onclick="ingreso()">Ingresar</button>
+
+        <p id="mensaje"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
